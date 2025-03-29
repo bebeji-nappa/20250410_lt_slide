@@ -7,7 +7,7 @@ export default function Home() {
   const [md, setMd] = useState('')
 
   useEffect(() => {
-    fetch('/slide.md')
+    fetch('/slide.txt')
       .then((res) => res.text())
       .then((data) => setMd(data));
   }, [])
