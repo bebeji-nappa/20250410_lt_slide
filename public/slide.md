@@ -17,7 +17,6 @@
 
 - **名前**: nappa
 - **職業**: エンジニア(2020/04〜)
-- **以前の職業**: 整体師
 - **年齢**: 31歳
 - **所属**: **来週で辞めるぅ!**
 - **趣味**: ギター、開発
@@ -99,15 +98,15 @@ GitHub など大半のサービスでは、Markdown の中で details を使用�
 ::div.container-column-center
 ::div.slide8-content-container
 ![avatar](my_avatar.jpg)
-### 「数式かけるようにしたいー」
+##### 「数式かけるようにしたいー」
 ::
 ::div.slide8-content-container
 ![avatar](my_avatar.jpg)
-### 「アラートボックス出したいよなー」
+##### 「アラートボックス出したいよなー」
 ::
 ::div.slide8-content-container
 ![avatar](my_avatar.jpg)
-### 「MarkdownでLT用のスライド作成できたら面白そう...!」
+##### 「MarkdownでLT用のスライド作成できたら面白そう...!」
 ::
 ::
 :---:
@@ -205,9 +204,9 @@ GitHub など大半のサービスでは、Markdown の中で details を使用�
 ## あの時、描いた夢はどうなったのか?
 
 ::div.container-column-center
-### ✅「数式かけるようにしたいー」
-### ✅「アラートボックス出したいよなー」
-### ❌「MarkdownでLT用のスライド作成できたら面白そう...!」
+##### ✅「数式かけるようにしたいー」
+##### ✅「アラートボックス出したいよなー」
+##### ❌「MarkdownでLT用のスライド作成できたら面白そう...!」
 ::
 :---:
 
@@ -265,9 +264,13 @@ richmd           <-- パース&HTML変換全部ここで管理してた
 
 
 #24
-:<--:content.dark
-## こんな感じで書いてるよ
+:---:title.dark
+# **こんな感じで書いてるよ**
+:---:
 
+
+#25
+:<--:content.dark
 ```txt:slide.md
 :use slide:
 
@@ -282,13 +285,15 @@ richmd           <-- パース&HTML変換全部ここで管理してた
 
 - **名前**: nappa
 - **職業**: エンジニア(2020/04〜)
+- **年齢**: 31歳
+- **所属**: **来週で辞めるぅ!**
 
 ...(略)...
 ```
 :---:
 
 
-#25
+#26
 :<--:content.dark
 ::div.slide25-content-container
 ```jsx:page.tsx
@@ -315,7 +320,7 @@ export default function Home() {
 :---:
 
 
-#26
+#27
 :<--:content.dark
 ## 今回の開発で思ったこと
 
@@ -327,14 +332,16 @@ export default function Home() {
 :---:
 
 
-#26
+#28
 :---:title.dark
 ::span.xxLarge-text
 最後に
 ::
 :---:
 
-#27
+
+
+#29
 :<--:content.dark
 ## 宣伝
 Richmd は、npm 経由で利用可能ですので、是非使ってみてください!
