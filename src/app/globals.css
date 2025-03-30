@@ -74,8 +74,18 @@ body {
   font-size: 36px;
 }
 
+.slide8-container-column-center {
+  width: 90%;
+  height: 100%;
+  display: flex;
+  margin: 0 auto;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
 .slide8-content-container {
-  width: 100%;
+  width: 90%;
   display: flex;
   align-items: center;
 }
@@ -125,6 +135,15 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+
+.slide17-content-container {
+  width: 90%;
+  height: 100%;
+  display: flex;
+  margin: 0 auto;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .slide23-content-container {

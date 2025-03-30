@@ -95,7 +95,7 @@ GitHub など大半のサービスでは、Markdown の中で details を使用�
 :<--:content.dark
 ## やがて抱いた夢
 
-::div.container-column-center
+::div.slide8-container-column-center
 ::div.slide8-content-container
 ![avatar](my_avatar.jpg)
 ##### 「数式かけるようにしたいー」
@@ -203,7 +203,7 @@ GitHub など大半のサービスでは、Markdown の中で details を使用�
 :<--:content.dark
 ## あの時、描いた夢はどうなったのか?
 
-::div.container-column-center
+::div.slide17-content-container
 ##### ✅「数式かけるようにしたいー」
 ##### ✅「アラートボックス出したいよなー」
 ##### ❌「MarkdownでLT用のスライド作成できたら面白そう...!」
@@ -217,32 +217,16 @@ GitHub など大半のサービスでは、Markdown の中で details を使用�
 :---:
 
 
+
 #19
 :---:title.dark
-# **これが本当に出来たら、面白いですよね!?**
-:---:
-
-
-#20
-:---:title.dark
-# **....さぁ、皆さん、ここまで話しましたが、**
-:---:
-
-
-#21
-:---:title.dark
-# **もうお気づきでしょうか?**
-:---:
-
-
-#22
-:---:title.dark
+# **...もうお気づきでしょうか?**
 # **実はこのスライド、Markdown で作ってます!**
 :---:
 
 
 
-#23
+#20
 :<--:content.dark
 ## やったぜ、Richmd
 
@@ -263,13 +247,13 @@ richmd           <-- パース&HTML変換全部ここで管理してた
 :---:
 
 
-#24
+#21
 :---:title.dark
 # **こんな感じで書いてるよ**
 :---:
 
 
-#25
+#22
 :<--:content.dark
 ```txt:slide.md
 :use slide:
@@ -293,7 +277,7 @@ richmd           <-- パース&HTML変換全部ここで管理してた
 :---:
 
 
-#26
+#23
 :<--:content.dark
 ::div.slide25-content-container
 ```jsx:page.tsx
@@ -320,7 +304,7 @@ export default function Home() {
 :---:
 
 
-#27
+#24
 :<--:content.dark
 ## 今回の開発で思ったこと
 
@@ -332,7 +316,7 @@ export default function Home() {
 :---:
 
 
-#28
+#25
 :---:title.dark
 ::span.xxLarge-text
 最後に
@@ -341,7 +325,7 @@ export default function Home() {
 
 
 
-#29
+#26
 :<--:content.dark
 ## 宣伝
 Richmd は、npm 経由で利用可能ですので、是非使ってみてください!
@@ -357,4 +341,3 @@ $ pnpm add @richmd/vue # Vue
 - https://github.com/richmd/react
 - https://github.com/richmd/vue
 :---:
-
