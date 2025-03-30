@@ -95,7 +95,7 @@ GitHub など大半のサービスでは、Markdown の中で details を使用�
 :<--:content.dark
 ## やがて抱いた夢
 
-::div.slide8-container-column-center
+::div.container-column-center
 ::div.slide8-content-container
 ![avatar](my_avatar.jpg)
 ##### 「数式かけるようにしたいー」
@@ -203,7 +203,7 @@ GitHub など大半のサービスでは、Markdown の中で details を使用�
 :<--:content.dark
 ## あの時、描いた夢はどうなったのか?
 
-::div.slide17-content-container
+::div.container-column-center
 ##### ✅「数式かけるようにしたいー」
 ##### ✅「アラートボックス出したいよなー」
 ##### ❌「MarkdownでLT用のスライド作成できたら面白そう...!」
