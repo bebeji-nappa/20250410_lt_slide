@@ -31,7 +31,7 @@
 
 ::div.slide3-content-container
 - **誕生 2020**
-- **中弛み 2021 - 2024**
+- **停滞 2021 - 2024**
 - **圧倒的OSS開発 2025**
 - **最後に**
 ::
@@ -102,7 +102,7 @@ GitHub など大半のサービスでは、Markdown の中で details を使用�
 ::
 ::div.slide8-content-container
 ![avatar](my_avatar.jpg)
-##### 「アラートボックス出したいよなー」
+##### 「アラートメッセージ出したいよなー」
 ::
 ::div.slide8-content-container
 ![avatar](my_avatar.jpg)
@@ -127,7 +127,7 @@ GitHub など大半のサービスでは、Markdown の中で details を使用�
 ::div.container-column-center
 - ***「Markdown の良さを残しつつ、Markdown を超えていく」***
 をコンセプトに作った
-- 数式、アラートボックスだけじゃなく、動画ファイル添付や簡単にHTMLタグ設定できるようにした
+- 数式、アラートメッセージだけじゃなく、動画ファイル添付や簡単にHTMLタグ設定できるようにした
 - (ただし、LT用のスライド作成機能は断念した...)
 ::
 :---:
@@ -157,14 +157,14 @@ GitHub など大半のサービスでは、Markdown の中で details を使用�
 #12
 :---:title.dark
 ::span.xxLarge-text
-中弛み 2021 - 2024
+停滞 2021 - 2024
 ::
 :---:
 
 
 #13
 :<--:content.dark
-## 中弛み 2021 - 2024
+## 停滞 2021 - 2024
 
 ::div.slide12-content-container
 # 時間の都合上、割愛します!
@@ -204,7 +204,7 @@ GitHub など大半のサービスでは、Markdown の中で details を使用�
 
 ::div.container-column-center
 ##### ✅「数式かけるようにしたいー」
-##### ✅「アラートボックス出したいよなー」
+##### ✅「アラートメッセージ出したいよなー」
 ##### ❌「MarkdownでLT用のスライド作成できたら面白そう...!」
 ::
 :---:
@@ -227,7 +227,7 @@ GitHub など大半のサービスでは、Markdown の中で details を使用�
 
 #20
 :<--:content.dark
-## やったぜ、Richmd
+## 割れた!
 
 今までは `richmd` というパッケージのみ管理していましたが、今回の対応で4つのパッケージに分割しました。
 
@@ -269,7 +269,7 @@ richmd           <-- パース&HTML変換全部ここで管理してた
 - **名前**: nappa
 - **職業**: エンジニア(2020/04〜)
 - **年齢**: 31歳
-- **所属**: **来週で辞めるぅ!**
+- **所属**: 現在、無職!(6月から転職)
 
 ...(略)...
 ```
@@ -305,6 +305,20 @@ export default function Home() {
 
 #24
 :<--:content.dark
+## この機能の強み
+
+::div.slide26-content-container
+- 全てJSで作られてるので、React, Vue との親和性が高い
+- Next.js や NuxtJS に組み込めるので、スライドの Web 展開が簡単にできる
+- (現状 React だけ) PDF エクスポート可能
+  - (Vue は絶賛開発中)
+- スライド作成する時間がないときにオススメ
+::
+:---:
+
+
+#25
+:<--:content.dark
 ## 今回の開発で思ったこと
 
 ::div.slide26-content-container
@@ -315,7 +329,7 @@ export default function Home() {
 :---:
 
 
-#25
+#26
 :---:title.dark
 ::span.xxLarge-text
 最後に
@@ -324,15 +338,15 @@ export default function Home() {
 
 
 
-#26
+#27
 :<--:content.dark
 ## 宣伝
 Richmd は、npm 経由で利用可能ですので、是非使ってみてください!
 今回使用したスライド機能も利用できます! リファクタリング等改善進めてるので、今後のアップデートにご期待下さい!
 
 ```sh
-$ pnpm add @richmd/react # React
-$ pnpm add @richmd/vue # Vue
+$ pnpm add @richmd/react
+$ pnpm add @richmd/vue
 ```
 
 #### GitHub
